@@ -1,0 +1,60 @@
+body {
+    font-family: Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+h6 {
+    margin-top:-50px;
+    font-style: italic;
+}
+
+#colorPainel {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border: 2px solid black ;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+#redPainel {
+    width: 190px;
+    height: 190px;
+    margin: auto;
+    border: 2px solid black ;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+#greenPainel {
+    width: 220px;
+    height: 220px;
+    margin: auto;
+    border: 2px solid black ;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+#bluePainel {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border: 2px solid black ;
+    border-radius: 15px;
+}
+
+label {
+    margin-right: 20px;
+}
+input[type="text"]{
+    width: 50px;
+    font-size: 20px;
+}
+input[type="range"]{
+    width: 300px;
+    margin-top: 50px;
+}

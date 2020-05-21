@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Gerador de cores RGB</h1>
+    <h6>RGB Color Generator</h6>
+
+    <div id="content">
+        <div id="bluePainel">
+            <div id="greenPainel">
+                <div id="redPainel">
+                    <div id="colorPainel"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="inputsdiv">
+            <div>
+                <label for="">Vermelho</label>
+                <input type="range" name="" id="red" min="0" max="255" value="127" >
+                <input type="text" id="redvalue" disabled>
+                <span>R</span>
+            </div>
+            <div>
+                <label for="">Verde</label>
+                <input type="range" name="" id="green" min="0" max="255" value="127" >
+                <input type="text" id="greenvalue" disabled>
+                <span>G</span>
+            </div>
+            <div>
+                <label for="">Azul</label>
+                <input type="range" name="" id="blue" min="0" max="255" value="127" >
+                <input type="text" id="bluevalue" disabled>
+                <span>B</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
